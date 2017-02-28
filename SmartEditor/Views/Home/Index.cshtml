@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>SmartEditor</h2>
+
+<form name="frm" id="frm" method="post">
+    <textarea name="content" id="content" style="width:600px;height:400px;">SmartEditor</textarea>
+
+</form>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+
+<script type="text/javascript" src="/SmartEditor/js/HuskyEZCreator.js"></script>
+<script type="text/javascript" src="/SmartEditor/js/SmartEditor.js"></script>
+<script type="text/javascript">
+    CreateEditor("content", function () {
+        alert("이미지를 기능을 구현해 주세요.");
+    });
+</script>

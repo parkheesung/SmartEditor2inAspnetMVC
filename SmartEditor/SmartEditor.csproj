@@ -89,13 +89,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="SmartEditor\css\smart_editor2.css" />
+    <Content Include="SmartEditor\css\smart_editor2_in.css" />
+    <Content Include="SmartEditor\css\smart_editor2_items.css" />
+    <Content Include="SmartEditor\css\smart_editor2_out.css" />
+    <Content Include="SmartEditor\img\bg_b1.png" />
+    <Content Include="SmartEditor\img\bg_button.gif" />
+    <Content Include="SmartEditor\img\bg_button_left.gif" />
+    <Content Include="SmartEditor\img\bg_button_right.gif" />
+    <Content Include="SmartEditor\img\bg_find_h3.gif" />
+    <Content Include="SmartEditor\img\bg_help.gif" />
+    <Content Include="SmartEditor\img\bg_icon_tool.gif" />
+    <Content Include="SmartEditor\img\bg_line1.gif" />
+    <Content Include="SmartEditor\img\bg_quote2.gif" />
+    <Content Include="SmartEditor\img\bg_set.gif" />
+    <Content Include="SmartEditor\img\bg_text_tool.gif" />
+    <Content Include="SmartEditor\img\bg_tool2.gif" />
+    <Content Include="SmartEditor\img\editor_guideline_698.gif" />
+    <Content Include="SmartEditor\img\editor_guideline_890.gif" />
+    <Content Include="SmartEditor\img\icon_set.gif" />
+    <Content Include="SmartEditor\img\ico_extend.png" />
+    <Content Include="SmartEditor\img\ko_KR\btn_set.png" />
+    <Content Include="SmartEditor\img\ko_KR\bx_set_110302.gif" />
+    <Content Include="SmartEditor\img\ko_KR\text_tool_set.png" />
+    <Content Include="SmartEditor\img\text_tool_set2.png" />
+    <Content Include="SmartEditor\js\HuskyEZCreator.js" />
     <Content Include="SmartEditor\js\jindo.min.js" />
+    <Content Include="SmartEditor\js\jindo_component.js" />
+    <Content Include="SmartEditor\js\SE2BasicCreator.js" />
+    <Content Include="SmartEditor\js\SE2B_Configuration_General.js" />
+    <Content Include="SmartEditor\js\SE2B_Configuration_Service.js" />
+    <Content Include="SmartEditor\js\SmartEditor.js" />
+    <Content Include="SmartEditor\js\smarteditor2.js" />
+    <Content Include="SmartEditor\js\smarteditor2.min.js" />
+    <Content Include="SmartEditor\SmartEditor2.html" />
     <Content Include="SmartEditor\SmartEditor2Skin.html" />
+    <Content Include="SmartEditor\SmartEditor2Skin_noImg.html" />
+    <Content Include="SmartEditor\smart_editor2_inputarea.html" />
+    <Content Include="SmartEditor\smart_editor2_inputarea_ie8.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -104,6 +151,13 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -113,10 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="SmartEditor\css\" />
-    <Folder Include="SmartEditor\img\ko_KR\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
